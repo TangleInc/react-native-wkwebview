@@ -4,14 +4,6 @@
 
 @class CRAWKWebView;
 
-/**
- * Special scheme used to pass messages to the injectedJavaScript
- * code without triggering a page load. Usage:
- *
- *   window.location.href = RCTJSNavigationScheme + '://hello'
- */
-extern NSString *const RCTJSNavigationScheme;
-
 @protocol CRAWKWebViewDelegate <NSObject>
 
 - (BOOL)webView:(CRAWKWebView *)webView
